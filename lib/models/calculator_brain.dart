@@ -8,7 +8,7 @@ class CalculatorBrain {
   final int weight;
   late double _bmi;
 
-  CalculatorBrain(this.height, this.weight);
+  CalculatorBrain({required this.height, required this.weight});
 
   String calculateBMI() {
     _bmi = weight / pow(height / 100, 2);

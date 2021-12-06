@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-const kBottomContainerHeight = 80.0;
+const kBottomContainerHeight = 60.0;
 const kLabelTextSize = 18.0;
 const kSliderMinValue = 120.0;
 const kSliderMaxValue = 220.0;
@@ -73,3 +73,13 @@ final kBMITextStyle = GoogleFonts.poppins(
 final kBodyTextStyle = GoogleFonts.poppins(
   fontSize: 20.0,
 );
+
+class MyTheme {
+  static ThemeData get myTheme {
+    return ThemeData(
+        colorScheme: const ColorScheme.dark(
+          primary: Color(0xFF0A0E21),
+        ),
+        scaffoldBackgroundColor: const Color(0xFF0A0E21));
+  }
+}
