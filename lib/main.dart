@@ -1,4 +1,4 @@
-import 'package:bmi_calculator/screens/home_page.dart';
+import 'package:bmi_calculator/screens/home_page_getx.dart';
 import 'package:bmi_calculator/util/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Bmi',
       theme: MyTheme.myTheme,
       home: const HomePage(),
     );
